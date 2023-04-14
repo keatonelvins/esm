@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load ESM-2 model
-model, alphabet = esm.pretrained.esm2_t33_650M_UR50D()
+model, alphabet = esm.pretrained.esm1v_t33_650M_UR90S_5()
 batch_converter = alphabet.get_batch_converter()
 model.eval()  # disables dropout for deterministic results
 
