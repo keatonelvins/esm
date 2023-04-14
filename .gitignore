@@ -21,6 +21,7 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 esm/dev
+mutation_analysis/attn_maps
 
 # Junk #
 ########
